@@ -229,6 +229,25 @@
             }
         },
         {
+            "Key": "6866a939-f8e9-42bd-a12a-d307d00d35ac",
+            "Value": {
+                "id": "e25af58e-d509-4540-a3da-6e518d369e83",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oController\/oController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6f404709-2fab-4282-8c0c-0cbfa8b8dd1c",
             "Value": {
                 "id": "e4e9d157-8d7b-4553-82f5-59c717379851",
@@ -340,6 +359,25 @@
                 ],
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "be3084da-b0ea-4378-8458-d3e274712f3c",
+            "Value": {
+                "id": "381e02ab-a690-48e0-b6b8-aa23fe30f3b2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/new_notification\/new_notification.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -512,10 +550,30 @@
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "ffc9b50e-17e9-45f0-b57a-d7aba85a4d26",
+            "Value": {
+                "id": "bbc7e663-a25e-4a16-90d1-459295514b25",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/handle_incoming_packets\/handle_incoming_packets.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        
+        "be3084da-b0ea-4378-8458-d3e274712f3c",
+        "ffc9b50e-17e9-45f0-b57a-d7aba85a4d26"
     ],
     "tutorial": ""
 }

@@ -1,0 +1,8 @@
+////////////////////////////////////////////////////
+
+How to Send Data Over the Network:
+	- Assuming everything is configured properly.
+		- buffer_seek(... start (or wherever) ...)
+		- buffer_write(... data id ...)
+		- buffer_write(... data ...)
+		- network_send_packet(... packet ...)

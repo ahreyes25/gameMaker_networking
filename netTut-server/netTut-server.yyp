@@ -39,6 +39,25 @@
     },
     "resources": [
         {
+            "Key": "0268f934-dcfb-475a-b79b-658dcff9d299",
+            "Value": {
+                "id": "585cd037-5a09-4935-9fff-8f6ab12c91cc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "notes\/Flow.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "049dcb33-def5-4dc3-83d1-c196f75e1709",
             "Value": {
                 "id": "b39be815-35eb-4ce9-998f-7c0b0896f569",
@@ -490,8 +509,27 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/oServer\/oServer.yy",
+                "resourcePath": "objects\/oController\/oController.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d67d2682-874a-41ff-b9be-147725eb3e4f",
+            "Value": {
+                "id": "ee60dece-2aef-4088-b8ac-16f0485e73fb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "notes\/Notes.yy",
+                "resourceType": "GMNotes"
             }
         },
         {

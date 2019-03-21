@@ -1,0 +1,39 @@
+////////////////////////////////////////////////////
+
+Server --Creates--> Server_Controller
+	Server_Controller creates
+		- Server
+			- Server Properties:
+				- network type
+				- port
+				- max players
+				- buffer size
+				- buffer type
+				- buffer alignment
+		- List of Client Sockets
+		- Global Write Buffer
+		
+Server --Waits--> For Networking_Events
+	- Client Connects
+		- Add client socket to list of sockets
+	- Client Disconnects
+		- Remove client socket from list of sockets
+	- Client Sends Data to Server
+		- Handle Data Packet
+
+////////////////////////////////////////////////////
+
+Client --Creates--> Client_Controller
+
+	Client_Controller creates connection to Server
+		- Client Properties:
+			- socket
+			- ip address to connect to
+			- boolean isConnected
+			- latency
+			- etc... whatever we want the client to have
+		- Global Write Buffer
+		
+Client --Waits--> For Networking_Events
+	- Server Sends Data to Client
+		- Handle Data Packet

@@ -1,6 +1,7 @@
 var eventType = ds_map_find_value(async_load, "type");
 
 switch(eventType) {
+	
 	case network_type_connect:
 	
 		var socket = ds_map_find_value(async_load, "socket");

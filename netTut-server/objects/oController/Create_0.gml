@@ -1,4 +1,13 @@
 #region Notes
+	#region Sockets
+	//	-	Socket represents a connection. In a Server, the Socket will represent
+	//		the connection made to the Client, whereas, in a Client, the Socket
+	//		will represent the connection made to the Server. This is why we have
+	//		a list of Sockets in the Server, because the Server is making connections
+	//		to multiple Clients, whereas the Client only has one Socket, which is the
+	//		connection to the Server.
+	#endregion
+	
 	#region Network Type
 	//	- TCP
 	//	-	Most reliable form of communication. Send a packet and then wait
